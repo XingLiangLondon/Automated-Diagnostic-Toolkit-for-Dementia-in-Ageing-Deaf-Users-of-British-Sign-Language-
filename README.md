@@ -10,14 +10,12 @@ To utilise OpenPose library for hand movement trajectory tracking
 ## Results
 - ROC Curve and Confusion Matrix
 <div align="center">
-  <a href="https://youtu.be/dDDbRsdWtpk?t=6"><img src="https://img.youtube.com/vi/dDDbRsdWtpk/hqdefault.jpg" alt="IMAGE ALT TEXT"></a>
+  <img src="Image/roc.png" alt="IMAGE ALT TEXT"></a>
 </div>
 <p align="center">
-<img src="Image/Figure3.PNG" width="250"><img src="Image/Figure3s1.PNG" width="250">
+<img src="Image/cf_norm.png" width="250"><img src="Image/cf_without_norm.png" width="250">
 </p>  
-<p align="center">
-<img src="Image/Figure3s2.PNG" width="250"><img src="Image/Figure3s3.PNG" width="250">
-</p>
+
 
 
 ## Citations
