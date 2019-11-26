@@ -13,7 +13,7 @@ To train and evaluate CNN deep learning model ResNet50 / VGG16 based on transfer
   <img src="Image/roc.png" alt="IMAGE ALT TEXT"></a>
 </div>
 <p align="center">
-<img src="Image/cf_norm.png" width="250">        <img src="Image/cf_without_norm.png" width="250">
+<img src="Image/cf_norm.png" width="300">        <img src="Image/cf_without_norm.png" width="300">
 </p>  
 
 
