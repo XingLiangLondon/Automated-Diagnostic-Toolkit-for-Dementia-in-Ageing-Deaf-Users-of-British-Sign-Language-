@@ -169,7 +169,7 @@ hist3 = custom_resnet_model_1.fit(X_train, y_train, batch_size=1, epochs=100, ve
 print('Training time: %s' % (time.time()-t))
 
 train_accuracy3= hist3.history['acc']
-print("[INFO] Model_VGG train_accuracy: {:.4f}%".format(train_accuracy3[-6] * 100))
+print("[INFO] Model_ResNet train_accuracy: {:.4f}%".format(train_accuracy3[-6] * 100))
 
 #################    Test the Model     #######################################
 (loss3, accuracy3) = custom_resnet_model_1.evaluate(X_test, y_test, batch_size=1, verbose=3)
