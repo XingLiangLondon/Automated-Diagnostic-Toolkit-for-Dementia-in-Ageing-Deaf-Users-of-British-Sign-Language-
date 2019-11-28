@@ -136,8 +136,8 @@ model_resnet = ResNet50(input_tensor=image_input, include_top=True,weights='imag
 
 # Print Model Layers Details/ Plot a Graph Layout  
 model_resnet.summary()
-plot_model(model,to_file='C:/Users/User/Documents/Github_Clone/deep-learning-models/ResNet50/ResNet50Model.png')
-SVG(model_to_dot(model).create(prog='dot', format='svg'))
+plot_model(model_resnet,to_file='C:/Users/User/Documents/Github_Clone/deep-learning-models/ResNet50/ResNet50Model.png')
+SVG(model_to_dot(model_resnet).create(prog='dot', format='svg'))
 
 # Get the last layer "avg_pool" out and from there to add/create your own network layers
 last_layer = model_resnet.get_layer('avg_pool').output
