@@ -20,12 +20,10 @@ To train and evaluate CNN deep learning model ResNet50 / VGG16 based on transfer
 
 ## Citations
 ```
-@inproceedings{liang2019handtracking,
-  author = {X. Liang, E. Kapetanios, B. Woll and A. Angelopoulou},
-  booktitle = {Cross Domain Conference for Machine
-Learning and Knowledge Extraction (CD-MAKE2019)},
-  title = {Real Time Hand Movement Trajectory Tracking for Enhancing
-Dementia Screening in Ageing Deaf Signers of British Sign Language},
-  year = {2019}
+@inproceedings{liangECCV2020,
+  author = {Xing Liang, Anastassia Angelopoulou, Epaminondas Kapetanios, Bencie Woll, Reda Al-batat and Tyron Woolfe},
+  booktitle = {Sign Language Recognition, Translation & Production (SLRTP) Workshop, in conjunction with the ECCV 2020 Conference},
+  title = {A Multi-modal Machine Learning Approach and Toolkit to Automate Recognition of Early Stages of Dementia among British Sign Language Users},
+  year = {2020}
 }
 ```
